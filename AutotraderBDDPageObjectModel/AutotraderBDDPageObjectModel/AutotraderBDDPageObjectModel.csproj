@@ -74,6 +74,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchForACarWithParameters.feature</DependentUpon>
     </Compile>
+    <Compile Include="Specifications\SearchForCarWithPrices.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchForCarWithPrices.feature</DependentUpon>
+    </Compile>
     <Compile Include="Steps\SearchSteps.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +95,10 @@
     <None Include="Specifications\SearchForACarWithParameters.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SearchForACarWithParameters.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Specifications\SearchForCarWithPrices.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SearchForCarWithPrices.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
